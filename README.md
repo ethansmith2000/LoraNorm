@@ -20,6 +20,7 @@ I hope this opens up doors to exploring more the roles of affine weights in norm
 pip install -r requirements.txt
 ```
 
+Note that the sh script will start by uninstalling HF's peft library if you have it, as the diffusers lora training script that was used in this repo is not comaptible with peft.
 ## Training
 ```commandline
 bash train.sh
